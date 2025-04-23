@@ -4,7 +4,7 @@ This repository contains code examples used in the Medium article:
 
 **“High-order derivatives using JAX Taylor-mode automatic differentiation”**
 
-🔗 [Read the article on Medium »](https://medium.com/)
+🔗 [Read the article on Medium »](https://medium.com/@andrey.yachmenev_75311/high-order-derivatives-using-jax-taylor-mode-automatic-differentiation-27c63be6ace9)
 
 ## Contents
 - [example_nested_vs_taylor.ipynb](example_nested_vs_taylor.ipynb)
