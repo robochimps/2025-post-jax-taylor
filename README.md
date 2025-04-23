@@ -2,13 +2,17 @@
 
 This repository contains code examples used in the Medium article:
 
-**“Multivariate Taylor series expansions with JAX Taylor-mode automatic differentiation”**
+**“High-order derivatives using JAX Taylor-mode automatic differentiation”**
 
 🔗 [Read the article on Medium »](https://medium.com/)
 
 ## Contents
-- [example_nested_vs_taylor.ipynb](example_nested_vs_taylor.ipynb) - Jupyter notebook demonstrating performance of JAX/jet Taylor-mode automatic differentiation vs nested application of JAX gradient.
-- [example_sin.ipynb](example_sin.ipynb) - Jupyter notebook demonstrating JAX/jet Taylor series expansion of $\sin(x)$ function.
+- [example_nested_vs_taylor.ipynb](example_nested_vs_taylor.ipynb)
+  Compares performance of Taylor-mode automatic differentiation using JAX's `jet` module against nested applications of `jax.grad`.
+- [example_sin.ipynb](example_sin.ipynb)
+  Demonstrates how to compute the Taylor series expansion of simple functions using the `jet` module.
+- [example_multivariate.ipynb](example_multivariate.ipynb)
+  Shows how to use `jet` for multivariate differentiation.
 
-## Authors
-Andrey Yachmenev and [Robochimps](https://github.com/robochimps)
+## Related
+- [robochimps/vibrojet](https://github.com/robochimps/vibrojet)
